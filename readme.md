@@ -7,12 +7,13 @@ Hosting for localized versions of Google Play badges in SVG format.
 
 It's possible to use Apple's linkmaker service to generate localized "Download on the App Store" SVG badges for your application. However, no similar service exists for Google's "Get it on Google Play" badges.
 
-This repository serves mostly as hosting for Google's badges in SVG format.
+This repository serves mostly as hosting for Google's badges in SVG format. Most of the files are in the [gh-pages](https://github.com/steverichey/google-play-badge-svg/tree/gh-pages) branch.
 
 ## Todo
 
 * Provide a single webpage for viewing all SVGs simultaneously to verify size/rendering
 * Optimize SVGs to minimize file size (using [this](http://petercollingridge.appspot.com/svg_optimiser) for example).
+* Add "Android App on" badges
 
 ## Usage
 
@@ -53,6 +54,8 @@ To view the list of available badges, please see [this folder](https://github.co
 Badges are labeled by their [ISO 639-1](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) codes wherever possible. Languages with multiple dialects, such as Chinese, are labeled by their ISO 639-1 code followed by their [ISO 639-3](http://en.wikipedia.org/wiki/ISO_639_macrolanguage) language code.
 
 By default, several versions of the Google Play badge use [Proxima Nova](https://typekit.com/fonts/proxima-nova), which is copyright Mark Simonson. As I do not own this font, it was replaced with [Myriad Pro](https://typekit.com/fonts/myriad-pro). No fonts are embedded in the SVGs; instead, I opted to convert them to outlines to maximize compatibility.
+
+Inclusion or omission of any language or dialect should not be misconstrued as support for any particular nationality, country, ideology, race, or similar. If there's a language in here, it's just because Google had it available or someone added it themselves. If a language is missing, it's just because Google did not have it available or I had issues with their file.
 
 ## License
 
