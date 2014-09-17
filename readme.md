@@ -43,6 +43,10 @@ Let me know if you have any questions, suggestions, or comments!
 
 To view the list of available badges, please see [this folder](https://github.com/steverichey/google-play-badge-svg/tree/gh-pages/img). If I've made an error somewhere or you'd like an additional language added, please [open an issue](https://github.com/steverichey/google-play-badge-svg/issues).
 
+## Notes
+
+By default, several versions of the Google Play badge use [Proxima Nova](https://typekit.com/fonts/proxima-nova), which is copyright Mark Simonson. As I do not own this font, it was replaced with [Myriad Pro](https://typekit.com/fonts/myriad-pro). No fonts are embedded in the SVGs; instead, I opted to convert them to outlines to maximize compatibility.
+
 ## License
 
 This repository is shared under an MIT license. See [license.md](https://github.com/steverichey/google-play-badge-svg/blob/master/license.md) for details.
