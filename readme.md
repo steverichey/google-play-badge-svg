@@ -39,6 +39,10 @@ It's that easy! With a little JavaScript to check for locale (check `navigator.l
 
 Let me know if you have any questions, suggestions, or comments!
 
+## Available badges
+
+To view the list of available badges, please see [this folder](https://github.com/steverichey/google-play-badge-svg/tree/gh-pages/img). If I've made an error somewhere or you'd like an additional language added, please [open an issue](https://github.com/steverichey/google-play-badge-svg/issues).
+
 ## License
 
 This repository is shared under an MIT license. See [license.md](https://github.com/steverichey/google-play-badge-svg/blob/master/license.md) for details.
