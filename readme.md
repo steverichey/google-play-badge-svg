@@ -15,6 +15,7 @@ This repository serves mostly as hosting for Google's badges in SVG format. Most
 * Optimize SVGs to minimize file size (using [this](http://petercollingridge.appspot.com/svg_optimiser) for example).
 * Add "Android App on" badges
 * Add example JavaScript to check for locale and return correct image path
+* Trim padding from SVG files to make positioning easier
 
 ## Usage
 
