@@ -11,8 +11,14 @@ This repository serves mostly as hosting for Google's badges in SVG format.
 
 ## Usage
 
+Simply link to the badge you require like so:
 
+````
+<img src="http://steverichey.github.io/google-play-badge-svg/en_get.svg">
+````
+
+This is still a work in progress! More information will be forthcoming.
 
 ## License
 
-This repository is shared under an MIT license. See [license.md]() for details.
+This repository is shared under an MIT license. See [license.md](https://github.com/steverichey/google-play-badge-svg/blob/master/license.md) for details.
