@@ -1,7 +1,7 @@
 [google-play-badge-svg](http://steverichey.github.io/google-play-badge-svg/)
 =====================
 
-Hosting for localized versions of Google Play badges in SVG format.
+Hosting for localized versions of Google Play™ badges in SVG format.
 
 ## About
 
@@ -60,6 +60,6 @@ Inclusion or omission of any language or dialect should not be misconstrued as s
 
 ## License
 
-This repository is shared under an MIT license. See [license.md](https://github.com/steverichey/google-play-badge-svg/blob/master/license.md) for details.
+Unless covered under some other license, all content in this repository is shared under an MIT license. See [license.md](https://github.com/steverichey/google-play-badge-svg/blob/master/license.md) for details.
 
-Google's brand, logos, and so on are all their own trademarks and copyrights. Be sure to read the [Branding Guidelines](https://developer.android.com/distribute/tools/promote/brand.html) and contact Google via the [Android and Google Play Brand Permissions Inquiry form](https://docs.google.com/forms/d/1YE5gZpAAcFKjYcUddCsK1Bv9a9Y-luaLVnkazVlaJ2w/viewform) if you have any questions. SVGs in this repository were generated from files provided by Google [here](https://developer.android.com/distribute/tools/promote/badge-files.html) which are shared under a [Creative Commons Attribution 2.5](http://creativecommons.org/licenses/by/2.5/) license.
+Google Play is a trademark of Google Inc. Google's brand, logos, and so on are all their own trademarks and copyrights. Be sure to read the [Branding Guidelines](https://developer.android.com/distribute/tools/promote/brand.html) and contact Google via the [Android and Google Play Brand Permissions Inquiry form](https://docs.google.com/forms/d/1YE5gZpAAcFKjYcUddCsK1Bv9a9Y-luaLVnkazVlaJ2w/viewform) if you have any questions. SVGs in this repository were generated from files provided by Google [here](https://developer.android.com/distribute/tools/promote/badge-files.html) which are shared under a [Creative Commons Attribution 2.5](http://creativecommons.org/licenses/by/2.5/) license.
