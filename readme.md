@@ -27,13 +27,17 @@ Which leads to [this](http://steverichey.github.io/google-play-badge-svg/img/en_
 
 And you'll get something like this:
 
-<center>
 <a href="https://play.google.com/store/apps/details?id=com.example.myapp">
-<img alt="Get it on Google Play" src="http://steverichey.github.io/google-play-badge-svg/img/en_get.svg" />
+<img align="middle" alt="Get it on Google Play" src="http://steverichey.github.io/google-play-badge-svg/img/en_get.svg" />
 </a>
-</center>
 
-It's that easy!
+It's that easy! With a little JavaScript to check for locale (check `navigator.language || navigator.browserLanguage`) you can then load language-specific versions of the badge:
+
+<a href="https://play.google.com/store/apps/details?id=com.example.myapp">
+<img align="middle" alt="Get it on Google Play" src="http://steverichey.github.io/google-play-badge-svg/img/zh_get.svg" />
+</a>
+
+Let me know if you have any questions, suggestions, or comments!
 
 ## License
 
