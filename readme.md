@@ -1,4 +1,4 @@
-google-play-badge-svg
+[google-play-badge-svg](http://steverichey.github.io/google-play-badge-svg/)
 =====================
 
 Hosting for localized versions of Google Play badges in SVG format.
