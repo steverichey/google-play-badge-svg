@@ -45,6 +45,8 @@ To view the list of available badges, please see [this folder](https://github.co
 
 ## Notes
 
+Badges are labeled by their [ISO 639-1](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) codes wherever possible. Languages with multiple dialects, such as Chinese, are labeled by their ISO 639-1 code followed by their [ISO 639-3](http://en.wikipedia.org/wiki/ISO_639_macrolanguage) language code.
+
 By default, several versions of the Google Play badge use [Proxima Nova](https://typekit.com/fonts/proxima-nova), which is copyright Mark Simonson. As I do not own this font, it was replaced with [Myriad Pro](https://typekit.com/fonts/myriad-pro). No fonts are embedded in the SVGs; instead, I opted to convert them to outlines to maximize compatibility.
 
 ## License
