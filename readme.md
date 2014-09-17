@@ -9,6 +9,11 @@ It's possible to use Apple's linkmaker service to generate localized "Download o
 
 This repository serves mostly as hosting for Google's badges in SVG format.
 
+## Todo
+
+* Provide a single webpage for viewing all SVGs simultaneously to verify size/rendering
+* Optimize SVGs to minimize file size (using [this](http://petercollingridge.appspot.com/svg_optimiser) for example).
+
 ## Usage
 
 Simply link to the badge you require like so:
