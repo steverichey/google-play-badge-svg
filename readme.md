@@ -14,10 +14,26 @@ This repository serves mostly as hosting for Google's badges in SVG format.
 Simply link to the badge you require like so:
 
 ````
-<img src="http://steverichey.github.io/google-play-badge-svg/en_get.svg">
+<img src="http://steverichey.github.io/google-play-badge-svg/img/en_get.svg">
 ````
 
-This is still a work in progress! More information will be forthcoming.
+Which leads to [this](http://steverichey.github.io/google-play-badge-svg/img/en_get.svg) image. Pretty handy! Be sure to add your own URL as well:
+
+````
+<a href="https://play.google.com/store/apps/details?id=com.example.myapp">
+<img alt="Get it on Google Play" src="http://steverichey.github.io/google-play-badge-svg/img/en_get.svg" />
+</a>
+````
+
+And you'll get something like this:
+
+<center>
+<a href="https://play.google.com/store/apps/details?id=com.example.myapp">
+<img alt="Get it on Google Play" src="http://steverichey.github.io/google-play-badge-svg/img/en_get.svg" />
+</a>
+</center>
+
+It's that easy!
 
 ## License
 
