@@ -5,7 +5,7 @@ Hosting for localized versions of Google Play™ badges in SVG format.
 
 ## About
 
-It's possible to use Apple's linkmaker service to generate localized "Download on the App Store" SVG badges for your application. However, no similar service exists for Google's "Get it on Google Play" badges.
+It's possible to use [Apple's linkmaker](https://linkmaker.itunes.apple.com/us/) service to generate localized "Download on the App Store" SVG badges for your application. However, no similar service exists for Google's "Get it on Google Play" badges.
 
 This repository serves mostly as hosting for Google's badges in SVG format. Most of the files are in the [gh-pages](https://github.com/steverichey/google-play-badge-svg/tree/gh-pages) branch.
 
