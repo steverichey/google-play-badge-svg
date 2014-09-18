@@ -43,6 +43,13 @@ It's that easy! With a little JavaScript to check for locale (check `navigator.l
 <img align="middle" alt="Get it on Google Play" src="http://steverichey.github.io/google-play-badge-svg/img/zh_get.svg" />
 </a>
 
+Or, you can call some handy JavaScript!
+
+<script type="text/javascript" src="https://raw.githubusercontent.com/steverichey/google-play-badge-svg/gh-pages/get-localized.js"></script>
+<script type="text/javascript">
+document.write(GetLocalizedPlayBadge.forCurrentLocale());
+</script>
+
 Let me know if you have any questions, suggestions, or comments!
 
 ## Available badges
