@@ -42,14 +42,23 @@ It's that easy! With a little JavaScript to check for locale (check `navigator.l
 <img align="middle" alt="Get it on Google Play" src="http://steverichey.github.io/google-play-badge-svg/img/zh_get.svg" />
 </a>
 
-Or, you can call some handy JavaScript!
+Or, you can call some handy JavaScript! First, call this in your header to get the JavaScript straight from a CDN:
 
 ````
-<script type="text/javascript" src="https://raw.githubusercontent.com/steverichey/google-play-badge-svg/gh-pages/get-localized.js"></script>
-<script type="text/javascript">
-document.write(GetLocalizedPlayBadge.forCurrentLocale());
-</script>
+<script type="text/javascript" src="https://cdn.rawgit.com/steverichey/google-play-badge-svg/100a2837efe8a90d2769507838e134351f045774/get-localized.js"></script>
 ````
+
+Then, add this HTML wherever you want your badge to appear:
+
+````
+<script type="text/javascript">
+  GetLocalizedPlayBadge.forCurrentLocale(320);
+ </script>
+````
+
+The only argument it takes is for width; the height is determined automatically. Default width is 216 pixels.
+
+How does it look? Check it out "in the field" [here](http://steverichey.com/dontmove/)!
 
 Let me know if you have any questions, suggestions, or comments!
 
