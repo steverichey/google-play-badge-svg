@@ -58,8 +58,6 @@ Then, add this HTML wherever you want your badge to appear:
 
 The only argument it takes is for width; the height is determined automatically. Default width is 216 pixels.
 
-How does it look? Check it out "in the field" [here](http://steverichey.com/dontmove/)!
-
 Let me know if you have any questions, suggestions, or comments!
 
 ## Available badges
