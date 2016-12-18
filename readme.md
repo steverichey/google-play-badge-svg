@@ -21,7 +21,7 @@ Let me know if you have any questions, suggestions, or comments!
 
 ## Available badges
 
-To view the list of available badges, please see [this folder](https://github.com/steverichey/google-play-badge-svg/tree/gh-pages/img) or view all of the images in one place [here](http://steverichey.github.io/google-play-badge-svg/all.html). If I've made an error somewhere or you'd like an additional language added, please [open an issue](https://github.com/steverichey/google-play-badge-svg/issues).
+To view the list of available badges, please see [this folder](./img) or view all of the images in one place [here](http://steverichey.github.io/google-play-badge-svg/all.html). If I've made an error somewhere or you'd like an additional language added, please [open an issue](https://github.com/steverichey/google-play-badge-svg/issues).
 
 ## Notes
 
