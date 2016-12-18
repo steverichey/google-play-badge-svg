@@ -5,58 +5,15 @@ Hosting for localized versions of Google Play™ badges in SVG format.
 
 ## About
 
-It's possible to use [Apple's linkmaker](https://linkmaker.itunes.apple.com/us/) service to generate localized "Download on the App Store" SVG badges for your application. However, no similar service exists for Google's "Get it on Google Play" badges.
-
-This repository serves mostly as hosting for Google's badges in SVG format. Most of the files are in the [gh-pages](https://github.com/steverichey/google-play-badge-svg/tree/gh-pages) branch.
-
-## Todo
-
-* Optimize SVGs to minimize file size (using [this](http://petercollingridge.appspot.com/svg_optimiser) for example).
-* Add "Android App on" badges
+It's possible to use [Apple's linkmaker](https://linkmaker.itunes.apple.com/us/) service to generate localized "Download on the App Store" SVG badges for your application. However, no similar service exists for Google's "Get it on Google Play" badges. This repository serves as hosting for Google's badges in SVG format.
 
 ## Usage
 
-Simply link to the badge you require like so:
+You should probably use a service like [RawGit](https://rawgit.com/) if you're going to use these images for anything much more than development. Just grab the URL of the file you want and pop it in here. Here's an image from this repo served up via RawGit.
 
-````
-<img src="http://steverichey.github.io/google-play-badge-svg/img/en_get.svg">
-````
+`todo: add an href to an example image from rawgit yo`
 
-Which leads to [this](http://steverichey.github.io/google-play-badge-svg/img/en_get.svg) image. Pretty handy! Be sure to add your own URL as well:
-
-````
-<a href="https://play.google.com/store/apps/details?id=com.example.myapp">
-<img alt="Get it on Google Play" src="http://steverichey.github.io/google-play-badge-svg/img/en_get.svg" />
-</a>
-````
-
-And you'll get something like this:
-
-<a href="https://play.google.com/store/apps/details?id=com.example.myapp">
-<img align="middle" alt="Get it on Google Play" src="http://steverichey.github.io/google-play-badge-svg/img/en_get.svg" />
-</a>
-
-It's that easy! With a little JavaScript to check for locale (check `navigator.language || navigator.browserLanguage`) you can then load language-specific versions of the badge:
-
-<a href="https://play.google.com/store/apps/details?id=com.example.myapp">
-<img align="middle" alt="Get it on Google Play" src="http://steverichey.github.io/google-play-badge-svg/img/zh_get.svg" />
-</a>
-
-Or, you can call some handy JavaScript! First, call this in your header to get the JavaScript straight from a CDN:
-
-````
-<script type="text/javascript" src="https://cdn.rawgit.com/steverichey/google-play-badge-svg/100a2837efe8a90d2769507838e134351f045774/get-localized.js"></script>
-````
-
-Then, add this HTML wherever you want your badge to appear:
-
-````
-<script type="text/javascript">
-  GetLocalizedPlayBadge.forCurrentLocale(320);
- </script>
-````
-
-The only argument it takes is for width; the height is determined automatically. Default width is 216 pixels.
+It's that easy! With a little JavaScript to check for locale (check `navigator.language || navigator.browserLanguage`) you can then load language-specific versions of the badge. I'd like to make this easier by making this available as a Node module, so keep an eye on this space if that sounds cool.
 
 Let me know if you have any questions, suggestions, or comments!
 
@@ -66,9 +23,9 @@ To view the list of available badges, please see [this folder](https://github.co
 
 ## Notes
 
-Badges are labeled by their [ISO 639-1](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) codes wherever possible. Languages with multiple dialects, such as Chinese, are labeled by their ISO 639-1 code followed by their [ISO 639-3](http://en.wikipedia.org/wiki/ISO_639_macrolanguage) language code.
+Badges are labeled according to how Google sorts them, which is mostly using [ISO 639-1](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) codes. For some languages with multiple dialects the sorting is a little different.
 
-By default, several versions of the Google Play badge use [Proxima Nova](https://typekit.com/fonts/proxima-nova), which is copyright Mark Simonson. As I do not own this font, it was replaced with [Myriad Pro](https://typekit.com/fonts/myriad-pro). No fonts are embedded in the SVGs; instead, I opted to convert them to outlines to maximize compatibility.
+All SVGs use outlined text instead of embedded fonts.
 
 Inclusion or omission of any language or dialect should not be misconstrued as support for any particular nationality, country, ideology, race, or similar. If there's a language in here, it's just because Google had it available or someone added it themselves. If a language is missing, it's just because Google did not have it available or I had issues with their file.
 
@@ -76,4 +33,4 @@ Inclusion or omission of any language or dialect should not be misconstrued as s
 
 Unless covered under some other license, all content in this repository is shared under an MIT license. See [license.md](https://github.com/steverichey/google-play-badge-svg/blob/master/license.md) for details.
 
-Google Play is a trademark of Google Inc. Google's brand, logos, and so on are all their own trademarks and copyrights. Be sure to read the [Branding Guidelines](https://developer.android.com/distribute/tools/promote/brand.html) and contact Google via the [Android and Google Play Brand Permissions Inquiry form](https://docs.google.com/forms/d/1YE5gZpAAcFKjYcUddCsK1Bv9a9Y-luaLVnkazVlaJ2w/viewform) if you have any questions. SVGs in this repository were generated from files provided by Google [here](https://developer.android.com/distribute/tools/promote/badge-files.html) which are shared under a [Creative Commons Attribution 2.5](http://creativecommons.org/licenses/by/2.5/) license.
+Google Play and the Google Play logo are trademarks of Google Inc. Be sure to read the [Branding Guidelines](https://developer.android.com/distribute/tools/promote/brand.html) and contact Google via the [Android and Google Play Brand Permissions Inquiry form](https://support.google.com/googleplay/contact/brand_developer) if you have any questions. SVGs in this repository were generated from files provided by Google [here](https://play.google.com/intl/en_us/badges/) and they have all the copyrights and trademarks and whatevs.
