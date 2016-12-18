@@ -11,7 +11,9 @@ It's possible to use [Apple's linkmaker](https://linkmaker.itunes.apple.com/us/)
 
 You should probably use a service like [RawGit](https://rawgit.com/) if you're going to use these images for anything much more than development. Just grab the URL of the file you want and pop it in here. Here's an image from this repo served up via RawGit.
 
+<p align="center">
 <img src="https://cdn.rawgit.com/steverichey/google-play-badge-svg/master/img/fr_get.svg" width="50%">
+</p>
 
 It's that easy! With a little JavaScript to check for locale (check `navigator.language || navigator.browserLanguage`) you can then load language-specific versions of the badge. I'd like to make this easier by making this available as a Node module, so keep an eye on this space if that sounds cool.
 
