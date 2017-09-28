@@ -1,5 +1,12 @@
 [google-play-badge-svg](http://steverichey.github.io/google-play-badge-svg/) [![Build Status](https://travis-ci.org/steverichey/google-play-badge-svg.svg?branch=master)](https://travis-ci.org/steverichey/google-play-badge-svg)
-=====================
+
+<p align="center">
+    <a href="#about">About</a>
+  • <a href="#usage">Usage</a>
+  • <a href="#available-badges">Available badges</a>
+  • <a href="#notes">Notes</a>
+  • <a href="#license">License</a>
+</p>
 
 Hosting for localized versions of Google Play™ badges in SVG format.
 
