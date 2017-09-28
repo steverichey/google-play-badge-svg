@@ -1,4 +1,4 @@
-[google-play-badge-svg](http://steverichey.github.io/google-play-badge-svg/) [![Build Status](https://travis-ci.org/steverichey/google-play-badge-svg.svg?branch=master)](https://travis-ci.org/steverichey/google-play-badge-svg)
+# [google-play-badge-svg](http://steverichey.github.io/google-play-badge-svg/) [![Build Status](https://travis-ci.org/steverichey/google-play-badge-svg.svg?branch=master)](https://travis-ci.org/steverichey/google-play-badge-svg)
 
 <p align="center">
     <a href="#about">About</a>
