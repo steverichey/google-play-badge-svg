@@ -1,3 +1,4 @@
+language: objective-c
 script:
   - xmllint --noout img/*.svg
 
