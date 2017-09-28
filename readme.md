@@ -1,4 +1,19 @@
-# [google-play-badge-svg](http://steverichey.github.io/google-play-badge-svg/) [![Build Status](https://travis-ci.org/steverichey/google-play-badge-svg.svg?branch=master)](https://travis-ci.org/steverichey/google-play-badge-svg)
+<p>
+    <h1 align="center">
+        <a href="//steverichey.github.io/google-play-badge-svg">
+            google-play-badge-svg
+        </a>
+    </h1>
+</p>
+
+<p align="center">
+    <a href="https://travis-ci.org/steverichey/google-play-badge-svg">
+        <img src="https://travis-ci.org/steverichey/google-play-badge-svg.svg?branch=master" alt="Build status">
+    </a>
+    <a href="./license.md">
+        <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg" alt="License: MIT">
+    </a>
+</p>
 
 <p align="center">
     <a href="#about">About</a>
